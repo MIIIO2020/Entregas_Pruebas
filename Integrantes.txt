@@ -1,0 +1,9 @@
+Alumnos:
+Antonia Inda
+Matías López
+Rolf Traeger
+
+Correos:
+dinda@alumnos.uai.cl
+matlopez@alumnos.uai.cl
+rtraeger@alumnos.uai.cl
