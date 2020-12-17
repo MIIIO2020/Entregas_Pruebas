@@ -1025,12 +1025,12 @@ Colums_df=Colums_df[ 12:20 ]
 Colums_df
 
 #i=as.character(i)
-a=df.smart
+
 l=length(Colums_df)
 for(i in c(1:l) ){
   s=Colums_df[i]
   if(i!=2 &&i!=4  && i!=6 ){
-    a[[s]]=NULL
+    df.smart[[s]]=NULL
     }
 }
 
@@ -1043,7 +1043,7 @@ for(i in c(1:l) ){
 
 #Variables skew seleccionadas (3, 7 y 193)
 Colums_df=colnames(df.smart)
-Colums_df=colnames(a)
+
 Colums_df
 
 Colums_df=Colums_df[ 12:14 ]
@@ -1057,7 +1057,7 @@ length(X)
 Y= X[!is.na(X)]
 length(Y)
 X=sapply(X, function(x) ifelse(is.na(x),mean(Y),x ) )
-a[,i]=X
+df.smart[,i]=X
 }
 
 ### Realizar los graficos log log  para los skews####
